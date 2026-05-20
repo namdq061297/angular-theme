@@ -9,8 +9,8 @@ html,
 body {
 	margin: 0;
 	padding: 0;
-	background: var(--color-bg);
-	color: var(--color-text);
+	background: var(--color-bg-info);
+	color: var(--color-text-default);
 	font-family: var(--font-family-base);
 	font-size: var(--font-size-16);
 	line-height: var(--line-height-base);
@@ -23,7 +23,7 @@ h4,
 h5,
 h6 {
 	margin: 0;
-	color: var(--color-text);
+	color: var(--color-text-primary);
 	line-height: var(--line-height-tight);
 }
 
@@ -34,16 +34,16 @@ h1 {
 
 p {
 	margin: 0;
-	color: var(--color-text-muted);
+	color: var(--color-text-secondary);
 	font-size: var(--font-size-16);
 }
 
 a {
-	color: var(--color-primary-500);
+	color: var(--color-text-accent-green);
 	text-decoration: none;
 	font-weight: 600;
 }
 
 a:hover {
-	color: var(--color-primary-600);
+	color: var(--color-text-brand-primary);
 }
