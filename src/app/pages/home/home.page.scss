@@ -1,0 +1,16 @@
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+  margin-top: 24px;
+}
+
+.token-example {
+  color: var(--color-primary-500);
+  font-size: var(--font-size-20);
+  font-weight: 600;
+  margin: 8px 0 16px;
+}
